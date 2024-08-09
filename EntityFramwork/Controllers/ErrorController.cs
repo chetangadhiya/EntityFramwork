@@ -13,5 +13,10 @@ namespace EntityFramwork.Controllers
         {
             return View();
         }
+
+        public ActionResult ErrorIndex()
+        {
+            return View();
+        }
     }
 }

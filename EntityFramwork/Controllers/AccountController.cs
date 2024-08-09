@@ -17,6 +17,8 @@ namespace EntityFramwork.Controllers
         // GET: Account
         public ActionResult Login()
         {
+            int i = 0;
+            var a = 1 / i;
             return View();
         }
 

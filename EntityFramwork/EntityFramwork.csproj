@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Auth\Authorization.cs" />
+    <Compile Include="Auth\ExceptionFilter.cs" />
     <Compile Include="Auth\LogActionFilter.cs" />
     <Compile Include="Auth\LogResultFilter.cs" />
     <Compile Include="ContextModel.Context.cs">
@@ -250,6 +251,7 @@
     <Content Include="Views\Employee\Edit.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Error\AccessDenied.cshtml" />
+    <Content Include="Views\Error\ErrorIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
